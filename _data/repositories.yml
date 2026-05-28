@@ -1,0 +1,9 @@
+github_users:
+  - GraceeeQ
+
+repo_description_lines_max: 2
+
+github_repos:
+  - GraceeeQ/MxCompiler
+  - GraceeeQ/VerilogCPU
+

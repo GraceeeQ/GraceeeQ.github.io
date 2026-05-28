@@ -1,0 +1,112 @@
+cv:
+  name: Yuhang Qiu
+  label: Undergraduate Researcher
+  email: qiuyuhang@sjtu.edu.cn
+  location: Shanghai, China
+  image: assets/img/prof_pic.jpg
+  summary: Undergraduate researcher at X-LANCE Lab, Shanghai Jiao Tong University, working on Speech AI, reliable ASR, Large Audio Language Models, and ASR-TTS systems.
+
+  social_networks:
+    - network: GitHub
+      username: GraceeeQ
+    - network: Google Scholar
+      username: MO7c-V0AAAAJ
+
+  sections:
+    Education:
+      - institution: Shanghai Jiao Tong University
+        location: Shanghai, China
+        area: Computer Science
+        studyType: B.S.
+        start_date: 2023-09
+        end_date: present
+        score: "GPA: 3.91/4.3"
+        highlights:
+          - Undergraduate Researcher, X-LANCE Lab, School of Computer Science
+          - Advisor: Prof. Kai Yu
+          - Member of ACM Honors Class
+          - Expected Graduation: Jun. 2027
+
+    Research Experience:
+      - company: X-LANCE Lab, Shanghai Jiao Tong University
+        position: Undergraduate Researcher
+        location: Shanghai, China
+        start_date: 2025-06
+        end_date: present
+        summary: Research in Speech AI, reliable ASR, Large Audio Language Models, and ASR-TTS collaborative systems.
+        highlights:
+          - Developing an iterative ASR-TTS collaborative training framework to couple speech recognition and speech generation through mutual data selection.
+          - Conducted research on reliable ASR, including word-level abstention and reliability-oriented evaluation.
+          - Contributed to ISA-Bench, a benchmark for instruction sensitivity in Large Audio Language Models.
+
+    Publications:
+      - title: "ISA-Bench: Benchmarking Instruction Sensitivity for Large Audio Language Models"
+        authors:
+          - Bohan Li
+          - Wenbin Huang
+          - Yuhang Qiu
+          - et al.
+        publisher: arXiv preprint arXiv:2510.23558
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2510.23558
+        summary: Accepted to ICASSP 2026. Equal contribution.
+
+      - title: "RAS: a Reliability Oriented Metric for Automatic Speech Recognition"
+        authors:
+          - Wenbin Huang
+          - Yuhang Qiu
+          - et al.
+        publisher: arXiv preprint arXiv:2604.24278
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2604.24278
+        summary: Under review at Interspeech 2026. Equal contribution.
+
+    Projects:
+      - name: MxCompiler
+        url: https://github.com/GraceeeQ/MxCompiler
+        summary: A compiler for Mx*, a C-like educational language, written in Java.
+        highlights:
+          - Course project for Compiler Design and Implementation.
+
+      - name: VerilogCPU
+        url: https://github.com/GraceeeQ/VerilogCPU
+        summary: A toy CPU written in Verilog.
+        highlights:
+          - Implements the Tomasulo algorithm.
+          - Supports basic RISC-V I instructions.
+
+    Awards:
+      - title: Zhiyuan Honors Scholarship
+        date: 2025
+        summary: Top 2% in SJTU.
+      - title: Academic Excellence Scholarship
+        date: 2025
+      - title: Excellent Teaching Assistant
+        date: 2025
+        summary: Top 10% TAs.
+      - title: Academic Excellence Scholarship
+        date: 2024
+      - title: Zhiyuan Honors Scholarship
+        date: 2024
+        summary: Top 2% in SJTU.
+      - title: Zhiyuan Honors Scholarship
+        date: 2023
+        summary: Top 2% in SJTU.
+
+    Teaching:
+      - institution: Shanghai Jiao Tong University
+        position: Teaching Assistant, Programming
+        start_date: 2024
+        end_date: 2024
+      - institution: Shanghai Jiao Tong University
+        position: Teaching Assistant, Data Structure
+        start_date: 2025
+        end_date: 2025
+
+    Skills:
+      - name: Programming
+        keywords: C++, Python, Go, Java, Verilog
+      - name: Tools
+        keywords: PyTorch, Git, Markdown, LaTeX
+      - name: Languages
+        keywords: Chinese (native), English (fluent)

@@ -1,0 +1,15 @@
+{% assign en_url = include.en | relative_url %}
+{% assign zh_url = include.zh | relative_url %}
+<style>
+  @media (max-width: 576px) {
+    .lang-switch {
+      clear: both;
+      justify-content: flex-start !important;
+      margin-top: 1rem !important;
+    }
+  }
+</style>
+<div class="lang-switch" style="display:flex;justify-content:flex-end;gap:.5rem;margin:0 0 1rem 0;font-size:.95rem;">
+  <a href="{{ en_url }}" style="padding:.2rem .55rem;border:1px solid var(--global-divider-color);border-radius:4px;{% if include.current == 'en' %}font-weight:600;color:var(--global-theme-color);{% endif %}">English</a>
+  <a href="{{ zh_url }}" style="padding:.2rem .55rem;border:1px solid var(--global-divider-color);border-radius:4px;{% if include.current == 'zh' %}font-weight:600;color:var(--global-theme-color);{% endif %}">中文</a>
+</div>
